@@ -1,0 +1,148 @@
+.form {
+    /*background-color: #D3DCE3;*/
+    min-width: 200px;
+    max-width: 400px;
+         
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    padding: 5px 20px 20px 20px;
+    margin: 0px;
+    
+    /*border: 1px solid #aaa;
+    border-radius: 3px;
+
+    box-shadow: 1px 1px 2px #fff inset;*/
+
+    z-index: 99;
+}
+
+.title {
+    padding: 0;
+}
+
+.input {
+    transition-duration: 0.3s;
+
+    background-color: #fff;
+
+    margin: 10px 0px 5px 0px;
+    width: 75%;
+    height: 30px;
+
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+
+    font-size: 15px;
+}
+
+.input:hover, .input:focus {
+    transition-duration: 0.3s;
+
+    outline: none;
+    box-shadow: 0px 0.1px 2px 0.1px #444444;
+}
+
+.submit_button {
+    background-color: #235A81;
+
+    margin: 10px 0px 0px 0px;
+    width: 77%;
+    height: 30px;
+
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    
+    cursor: pointer;
+
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #444;
+    font-size: 15px;
+}
+
+.submit_button:hover {
+    background-color: #1f4f72;
+}
+
+.btn {
+    display: inline-block;
+
+    background-color: #235A81;
+    
+    padding: 20px 40px 20px 40px;
+    margin: 10px 5px 10px 5px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 0.5px #444;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #1f4f72;
+}
+
+.link {
+    color: #235A81;
+}
+
+.error {
+    margin: 0px;
+
+    color: #235A81;
+}
+
+.content {
+    width: 100%;
+}
+
+.stats {
+    height: auto;
+    
+    padding: 0px 20px 5px 20px;
+
+    text-align: center;
+
+    display: grid;
+    justify-content: center;
+}
+
+.chart_div {
+    text-align: left;
+
+    width: 90vw;
+    height: 400px;
+}
+
+.chpwd {
+    height: 400px;
+
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+.settings {
+    height: 300px;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+    color: #444;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    .chart_div {
+        height: 300px;  
+    }
+}

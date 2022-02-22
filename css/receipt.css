@@ -1,0 +1,105 @@
+.content {
+    padding: 20px 20px 20px 20px;
+
+    height: fit-content;
+
+    text-align: center;
+}
+
+.form {
+    background-color: #D3DCE3;
+    min-width: 300px;
+    max-width: 400px;
+         
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    padding: 5px 20px 20px 20px;
+    margin: 15px 0px 15px 0px;
+    
+    border: 1px solid #aaa;
+    border-radius: 3px;
+
+    box-shadow: 1px 1px 2px #fff inset;
+
+    z-index: 99;
+}
+
+.input-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-label {
+    text-align: left;
+    margin: 0px 0px 5px 6px;
+}
+
+.input {
+    transition-duration: 0.3s;
+
+    background-color: #fff;
+
+    margin: 0px 0px 0px 0px;
+    width: 135px;
+    height: 30px;
+
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+
+    font-size: 15px;
+
+    -webkit-validation-bubble-message: none;
+}
+
+.num-input {
+    width: 9.8ch;
+}
+
+.comment {
+    width: 285px;
+    height: 50px;
+
+    resize: none;
+}
+
+.input:hover, .input:focus {
+    transition-duration: 0.3s;
+
+    outline: none;
+    box-shadow: 0px 0.1px 2px 0.1px #444444;
+}
+
+.submit_button {
+    background-color: #235A81;
+
+    margin: 0px;
+    min-width: 295px;
+    height: 32px;
+
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    
+    cursor: pointer;
+
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #444;
+    font-size: 15px;
+}
+
+.submit_button:hover {
+    background-color: #1f4f72;
+}
+
+.link {
+    color: #235A81;
+}
+
+.error {
+    text-align: left;
+    color: #235A81;
+    
+    margin: 5px 0px 0px 6px;
+}
